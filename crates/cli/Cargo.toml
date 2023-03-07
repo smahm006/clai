@@ -1,0 +1,12 @@
+[package]
+name = "openai-cli"
+version = "0.1.0"
+authors = ["Sohaib Mahmood <smahmood@tutanota.com>"]
+description = """
+Utilities for search oriented command line applications.
+"""
+keywords = ["openai", "chatgpt"]
+edition = "2021"
+
+
+[dependencies]

@@ -1,14 +1,6 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+#![deny(missing_docs)]
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+pub extern crate openai_cli as cli;
+pub extern crate openai_parse as parse;
+pub extern crate openai_print as print;
+pub extern crate openai_request as request;
