@@ -1,0 +1,30 @@
+[package]
+name = "clai"
+version = "0.1.0"
+authors = ["Sohaib Mahmood <smahmood@tutanota.com>"]
+description = """
+clai is a tool for interacting with openAI's chatgpt3.5 model
+"""
+keywords = ["openai", "chatgp"]
+categories = ["command-line-utilities", "API bindings"]
+edition = "2021"
+
+[[bin]]
+path = "crates/core/main.rs"
+name = "clai"
+
+[[test]]
+name = "integration"
+path = "tests/tests.rs"
+
+[workspace]
+members = [
+"crates/parser",
+"crates/openai",
+"crates/printer",
+]
+
+[dependencies.clap]
+clap = "4.1.8"
+default-features = false
+features = ["std", "suggestions"]
