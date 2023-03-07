@@ -1,9 +1,9 @@
 [package]
-name = "openai"
+name = "openai-print"
 version = "0.1.0"
 authors = ["Sohaib Mahmood <smahmood@tutanota.com>"]
 description = """
-OpenAI Interaction library
+Standard printing of OpenAI response with a choice of JSON format
 """
 keywords = ["openai", "chatgpt"]
 edition = "2021"

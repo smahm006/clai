@@ -5,7 +5,7 @@ authors = ["Sohaib Mahmood <smahmood@tutanota.com>"]
 description = """
 clai is a tool for interacting with openAI's chatgpt3.5 model
 """
-keywords = ["openai", "chatgp"]
+keywords = ["openai", "chatgpt"]
 categories = ["command-line-utilities", "API bindings"]
 edition = "2021"
 

@@ -1,9 +1,9 @@
 [package]
-name = "openai"
+name = "openai-parse"
 version = "0.1.0"
 authors = ["Sohaib Mahmood <smahmood@tutanota.com>"]
 description = """
-OpenAI Interaction library
+OpenAI API response parser library
 """
 keywords = ["openai", "chatgpt"]
 edition = "2021"
