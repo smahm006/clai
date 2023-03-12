@@ -10,3 +10,8 @@ edition = "2021"
 
 
 [dependencies]
+openai-token = { path = "../token" }
+openai-cli = { path = "../cli" }
+openai-parse = { path = "../parse" }
+openai-print = { path = "../print" }
+openai-request = { path = "../request" }

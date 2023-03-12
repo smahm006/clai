@@ -19,10 +19,16 @@ path = "tests/tests.rs"
 
 [workspace]
 members = [
-"crates/parser",
 "crates/openai",
-"crates/printer",
+"crates/token",
+"crates/cli",
+"crates/parse",
+"crates/print",
+"crates/request",
 ]
+
+[dependencies]
+openai = { path = "crates/openai" }
 
 [dependencies.clap]
 clap = "4.1.8"

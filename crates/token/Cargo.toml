@@ -1,0 +1,12 @@
+[package]
+name = "openai-token"
+version = "0.1.0"
+authors = ["Sohaib Mahmood <smahmood@tutanota.com>"]
+description = """
+OpenAI token calculator library
+"""
+keywords = ["openai", "token", "chatgpt"]
+edition = "2021"
+
+
+[dependencies]

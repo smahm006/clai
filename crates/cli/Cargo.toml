@@ -10,3 +10,6 @@ edition = "2021"
 
 
 [dependencies]
+openai-token = { path = "../token" }
+atty = "0.2.14"
+same-file = "1.0.6"
