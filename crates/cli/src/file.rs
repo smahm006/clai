@@ -103,7 +103,10 @@ pub fn parse_file(path_str: &str) -> Result<path::PathBuf, ParseFileError> {
     let buf_reader = io::BufReader::new(fs::File::open(&path).unwrap());
     let token_count = match count(buf_reader) {
         Ok(count) => count,
-        Err(_) => return Err(ParseFileError::format(path_str)),
+        Err(e) => {
+            println!("{:#?}", e);
+            return Err(ParseFileError::format(path_str));
+        }
     };
 
     if token_count <= 20000 {
